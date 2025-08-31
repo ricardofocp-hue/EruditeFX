@@ -1,9 +1,0 @@
-services:
-  eruditefx-api:
-    build: .
-    container_name: eruditefx-api
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./outputs:/app/outputs
-    restart: unless-stopped
